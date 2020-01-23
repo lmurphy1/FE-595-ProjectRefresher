@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+Laura Murphy
+FE 595 Python Refresher
 """
 
 import numpy as np
 import matplotlib as plt
 
-import matplotlib.pylab as plt
 x1 = np.linspace(0, 2*np.pi)
 x2 = np.linspace(0,2*np.pi)
 sin = plt.plot(x1, np.sin(x1), color = "red", label="sin")
