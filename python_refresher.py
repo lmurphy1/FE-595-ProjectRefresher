@@ -5,7 +5,7 @@ FE 595 Python Refresher
 """
 
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 x1 = np.linspace(0, 2*np.pi)
 x2 = np.linspace(0,2*np.pi)
