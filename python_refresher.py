@@ -15,6 +15,10 @@ def plot():
     plt.legend()
     plt.show()
 
+def add_experiment():
+    print("hi!")
+
 
 if __name__ == "__main__":
     plot()
+    add_experiment()
