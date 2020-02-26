@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 
 def plot():
     x = np.linspace(0, 2 * np.pi, num=500)
-    plt.plot(x, np.sin(x), color="red", label="sin")
-    plt.plot(x, np.cos(x), color="blue", label="cos")
+    plt.plot(x, np.sin(x), color="purple", label="sin")
+    plt.plot(x, np.cos(x), color="orange", label="cos")
     plt.xlabel("Angle (radians)")
     plt.legend()
     plt.show()
